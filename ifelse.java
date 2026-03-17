@@ -1,4 +1,6 @@
 
+// Código de estrutura condicional simples.
+
 import java.util.Scanner;
 
 public class ifelse {
