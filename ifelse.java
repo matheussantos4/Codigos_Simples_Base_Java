@@ -22,7 +22,5 @@ public class ifelse {
             System.out.println("Número impar");
 
         sc.close();
-
     }
-
 }
