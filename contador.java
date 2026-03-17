@@ -10,9 +10,6 @@ public class contador {
 
             System.out.println("Contagem:" + i);
             i++;
-
         }
-
     }
-
 }
