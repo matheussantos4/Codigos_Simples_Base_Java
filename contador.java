@@ -1,6 +1,6 @@
 public class contador {
 
-    // código focado em utilizar while.
+    // Utilização simples de While.
 
     public static void main(String[] args) {
 

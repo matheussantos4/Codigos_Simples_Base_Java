@@ -32,9 +32,24 @@ Programa que exemplifica o uso de **loops com while**.
 
 ---
 
-### 3. **calculadora.java**
+### 3. **AtribuiçãoCumulativa.java**
 
-_Em desenvolvimento_ - Projeto destinado a operações matemáticas básicas
+Programa que demonstra o uso de **operadores de atribuição cumulativa**.
+
+**Funcionalidade:**
+
+- Simula um controle de saldo bancário
+- Realiza operações de adição, subtração, multiplicação e divisão
+- Utiliza operadores +=, -=, \*=, /= para atualizar o saldo em tempo real
+- Exibe o resultado após cada operação
+
+**Conceitos:** Operadores de atribuição cumulativa (+=, -=, \*=, /=), variáveis inteiras, saída de dados
+
+---
+
+### 4. **SwitchCase.java**
+
+_Em desenvolvimento_ - Projeto destinado a demonstrar estruturas switch/case
 
 ---
 
