@@ -55,31 +55,37 @@ _Em desenvolvimento_ - Projeto destinado a demonstrar estruturas switch/case
 
 ## 🚀 Como Compilar e Executar
 
-### Windows (PowerShell)
+### 1) Compilar
 
 ```powershell
-# Compilar
-javac nome_do_arquivo.java
-
-# Executar
-java nome_da_classe
+javac NomeDoArquivo.java
 ```
 
-### Linux/Mac
+### 2) Executar
 
-```bash
-# Compilar
-javac nome_do_arquivo.java
-
-# Executar
-java nome_da_classe
+```powershell
+java NomeDaClasse
 ```
 
-**Exemplo:**
+> 📝 O nome da classe executável deve coincidir com o nome do arquivo (sem extensão).
+
+### Exemplos (Windows / Linux / Mac)
 
 ```powershell
 javac ifelse.java
 java ifelse
+
+javac contador.java
+java contador
+
+javac EstudoWhile.java
+java EstudoWhile
+
+javac SwitchCase.java
+java SwitchCase
+
+javac AtribuiçãoCumulativa.java
+java AtribuiçãoCumulativa
 ```
 
 ## 📝 Requisitos
