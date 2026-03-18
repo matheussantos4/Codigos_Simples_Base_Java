@@ -49,7 +49,29 @@ Programa que demonstra o uso de **operadores de atribuição cumulativa**.
 
 ### 4. **SwitchCase.java**
 
-_Em desenvolvimento_ - Projeto destinado a demonstrar estruturas switch/case
+Programa que demonstra o uso de **estrutura switch/case**.
+
+**Funcionalidade:**
+
+- Solicita ao usuário um número entre 1 e 7
+- Imprime o **dia da semana** correspondente
+- Utiliza `switch/case` para seleção baseada em valor
+
+**Conceitos:** Switch/case, Scanner, fluxo de controle, saída de dados
+
+---
+
+### 5. **EstudoWhile.java**
+
+Programa que ilustra o uso de **loop `while`** em um contexto de acumulação.
+
+**Funcionalidade:**
+
+- Solicita números ao usuário até que digite **0**
+- Soma todos os valores informados
+- Exibe o total somado no final
+
+**Conceitos:** Loop while, acumulação, Scanner, controle de fluxo
 
 ---
 
