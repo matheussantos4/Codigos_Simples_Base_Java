@@ -16,6 +16,8 @@ public class ex3Combustíveis {
         int Diesel = 0;
 
         int tipo = sc.nextInt();
+        // Variável que define as escolhas
+        // em vez de criar uma variável por vez.
 
         while (tipo != 4) {
 
@@ -28,10 +30,12 @@ public class ex3Combustíveis {
             } else
                 System.out.println("Este não é um tipo de combustível.");
             tipo = sc.nextInt();
+
+            // Sempre abrir novamente Scanner para permitir a entrada de dados
+            // garantindo a repetição de While.
+
         }
-
         sc.close();
-
         System.out.println("Alcool: " + Alcool);
         System.out.println("Gasolina: " + Gasolina);
         System.out.println("Diesel: " + Diesel);
