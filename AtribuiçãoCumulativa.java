@@ -16,7 +16,5 @@ public class AtribuiçãoCumulativa {
         System.out.println("Após investir: " + saldo);
         saldo /= 2; // após guardar metade
         System.out.println("Após guardar: " + saldo);
-
     }
-
 }
