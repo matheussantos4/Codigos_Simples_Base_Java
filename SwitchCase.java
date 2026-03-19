@@ -43,6 +43,9 @@ public class SwitchCase {
                 dia = "valor invalido";
         }
 
+        // Case Break pode ser utilizado quando as tentativas possuem
+        // valores fixos e não condições mais complexas.
+
         System.out.println("Dia da semana " + dia);
         sc.close();
     }
