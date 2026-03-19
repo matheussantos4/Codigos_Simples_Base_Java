@@ -75,7 +75,64 @@ Programa que ilustra o uso de **loop `while`** em um contexto de acumulação.
 
 ---
 
-## 🚀 Como Compilar e Executar
+## � Exercícios - While Curso
+
+Pasta dedicada a exercícios práticos com aplicação de **loops while** em diferentes contextos:
+
+### 1. **ex1Senha.java**
+
+Programa que valida entrada de **senha** utilizando loop while.
+
+**Funcionalidade:**
+
+- Solicita ao usuário uma senha
+- Continua pedindo a senha enquanto estiver incorreta
+- Permite acesso apenas quando a senha correta (**2002**) é digitada
+- Exibe mensagem de sucesso após validação
+
+**Conceitos:** Loop while, condição de parada, Scanner, validação
+
+---
+
+### 2. **ex2Cartesiano.java**
+
+Programa que identifica **quadrantes do plano cartesiano** baseado em coordenadas.
+
+**Funcionalidade:**
+
+- Solicita coordenadas X e Y ao usuário
+- Determina em qual quadrante o ponto está localizado:
+  - **1º Quadrante:** X > 0 e Y > 0
+  - **2º Quadrante:** X < 0 e Y < 0
+  - **3º Quadrante:** X > 0 e Y < 0
+  - **4º Quadrante:** X < 0 e Y > 0
+- Continua pedindo coordenadas até que ambas sejam **0** (condição de parada)
+
+**Conceitos:** Loop while, condicionais if/else, lógica de coordenadas, Scanner
+
+---
+
+### 3. **ex3Combustíveis.java**
+
+Programa que realiza uma **votação sobre tipo de combustível preferido** e conta as preferências.
+
+**Funcionalidade:**
+
+- Exibe menu com opções de combustíveis:
+  - 1 - Álcool
+  - 2 - Gasolina
+  - 3 - Diesel
+  - 4 - FIM
+- Solicita ao usuário para votar
+- Continua coletando votos enquanto não digitar **4**
+- Contabiliza o número de votos para cada tipo de combustível
+- Exibe o resultado final da votação
+
+**Conceitos:** Loop while, switch/case (implícito com if/else), contadores, acumulação de dados
+
+---
+
+## �🚀 Como Compilar e Executar
 
 ### 1) Compilar
 
@@ -109,6 +166,23 @@ java SwitchCase
 javac AtribuiçãoCumulativa.java
 java AtribuiçãoCumulativa
 ```
+
+### Compilar e Executar Exercícios
+
+Para compilar os exercícios na pasta `exerciciosWhileCurso/`, navegue até a pasta raiz e use:
+
+```powershell
+javac exerciciosWhileCurso/ex1Senha.java
+java exerciciosWhileCurso.ex1Senha
+
+javac exerciciosWhileCurso/ex2Cartesiano.java
+java exerciciosWhileCurso.ex2Cartesiano
+
+javac exerciciosWhileCurso/ex3Combustíveis.java
+java exerciciosWhileCurso.ex3Combustíveis
+```
+
+> 📝 Como os exercícios estão em um pacote (`exerciciosWhileCurso`), utilize a notação de ponto (.) ao executar, não a barra invertida.
 
 ## 📝 Requisitos
 
