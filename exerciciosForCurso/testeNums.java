@@ -2,7 +2,10 @@ package exerciciosForCurso;
 
 import java.util.Scanner;
 
-public class ex1Nums {
+public class testeNums {
+
+    // Primeiro digitar quantidade de números
+    // Depois vem a soma do que foi atribuído.
 
     public static void main(String[] args) {
 
