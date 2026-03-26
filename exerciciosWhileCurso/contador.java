@@ -1,3 +1,5 @@
+package exerciciosWhileCurso;
+
 public class contador {
 
     // Utilização simples de While.
