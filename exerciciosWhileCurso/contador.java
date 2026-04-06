@@ -1,6 +1,6 @@
 package exerciciosWhileCurso;
 
-public class contador {
+public class Contador {
 
     // Utilização simples de While.
 
