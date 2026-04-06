@@ -3,7 +3,7 @@ package exerciciosDoWhile;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class farenheit {
+public class Farenheit {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
