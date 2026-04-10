@@ -1,5 +1,3 @@
-package Triângulo;
-
 // Classe destinada a criar o objeto Triângulo.
 
 public class Triangulo {
